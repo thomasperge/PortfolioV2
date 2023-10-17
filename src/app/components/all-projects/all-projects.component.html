@@ -2,7 +2,6 @@
   <!-- Portfolio Title -->
   <div class="portfolioNameArea" id="portfolioNameArea">Portfolio</div>
 
-  <!-- First Project - CryproCurrencies -->
   <app-left-project
     [titleProject]="'Cryptocurrency'"
     [descriptionProject]="
@@ -37,7 +36,35 @@
       'ElectronJs'
     ]"
     [imgProject1]="'./../../../assets/todogif.gif'"
-    [imgProject2]="'./../../../assets/AssetsCryptoCurrencyPhone.png'"
+    [colorProject]="'#ff8800'"
+  ></app-right-project>
+
+  <app-left-project
+    [titleProject]="'Tic&Tac'"
+    [descriptionProject]="
+      'Tic&Tac is a site supporting the Spotify API in Golang, the user creates an account, and accesses all the artists in the world and their music, the user can bookmark artists, and songs. There is also a concert implementation.'
+    "
+    [tagProject]="['Spotify', 'Spotify API', 'Artist', 'Song', 'Golang']"
+    [imgProject1]="'./../../../assets/groupieTracker.png'"
+    [colorProject]="'blue'"
+  ></app-left-project>
+
+  <app-right-project
+    [titleProject]="'BringIt'"
+    [descriptionProject]="
+      'BrintIt is an application allowing the organization of events, with a system of selection of items by user. The user can create an event and a group from an invitation link (Ydays)'
+    "
+    [tagProject]="[
+      'Typescript',
+      'NestJs',
+      'API',
+      'BringIt',
+      'ReactJs',
+      'App',
+      'AppStore'
+    ]"
+    [imgProject1]="'./../../../assets/bringit.png'"
+    [imgProject2]="'./../../../assets/bringit2.png'"
     [colorProject]="'#ff8800'"
   ></app-right-project>
 </div>
