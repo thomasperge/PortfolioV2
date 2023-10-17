@@ -8,6 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { RightProjectComponent } from './components/right-project/right-project.component';
 import { LeftProjectComponent } from './components/left-project/left-project.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { LeftProjectComponent } from './components/left-project/left-project.com
     FooterComponent,
     HeaderComponent,
     RightProjectComponent,
-    LeftProjectComponent
+    LeftProjectComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
