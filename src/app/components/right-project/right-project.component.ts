@@ -12,7 +12,7 @@ export class RightProjectComponent {
   @Input() imgProject1: string = "";
   @Input() imgProject2: string = "";
   @Input() colorProject: string = "";
-
+  @Input() imgStyle: { [key: string]: string } = {};
   
   constructor() { }
 }

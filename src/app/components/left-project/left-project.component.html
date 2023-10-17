@@ -54,11 +54,11 @@
   </div>
   <!-- Image -->
   <div class="imageAreaProject" *ngIf="imgProject1 && imgProject2">
-    <img src="{{ imgProject1 }}" alt="" class="imageProjectTwice" />
-    <img src="{{ imgProject2 }}" alt="" class="imageProjectTwice" />
+    <img src="{{ imgProject1 }}" [ngStyle]="imgStyle" alt="" class="imageProjectTwice" />
+    <img src="{{ imgProject2 }}" [ngStyle]="imgStyle" alt="" class="imageProjectTwice" />
   </div>
 
   <div class="imageAreaProject" *ngIf="imgProject1 && !imgProject2">
-    <img src="{{ imgProject1 }}" alt="" class="imageProjectAlone" />
+    <img src="{{ imgProject1 }}" [ngStyle]="imgStyle" alt="" class="imageProjectAlone" />
   </div>
 </div>
