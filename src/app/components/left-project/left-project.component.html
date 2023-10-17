@@ -35,7 +35,7 @@
                 xlink:href="#gEK2QeZAN"
                 opacity="1"
                 fill-opacity="0"
-                [ngStyle]="{ 'stroke': colorProject, 'stroke-width': '20' }"
+                [ngStyle]="{ stroke: colorProject, 'stroke-width': '20' }"
                 stroke-width="20"
                 stroke-opacity="1"
               ></use>
@@ -53,8 +53,12 @@
     </div>
   </div>
   <!-- Image -->
-  <div class="imageAreaProject">
+  <div class="imageAreaProject" *ngIf="imgProject1 && imgProject2">
     <img src="{{ imgProject1 }}" alt="" class="imageProjectTwice" />
     <img src="{{ imgProject2 }}" alt="" class="imageProjectTwice" />
+  </div>
+
+  <div class="imageAreaProject" *ngIf="imgProject1 && !imgProject2">
+    <img src="{{ imgProject1 }}" alt="" class="imageProjectAlone" />
   </div>
 </div>
