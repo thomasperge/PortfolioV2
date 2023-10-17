@@ -1,1 +1,15 @@
-<p>footer works!</p>
+<!-- Dark / Light Mode -->
+<div class="darkmodeArea">
+  <label class="switch">
+    <input
+      type="checkbox"
+      [checked]="isLightTheme"
+      (change)="onThemeSwitchChange()"
+    />
+    <span class="slider"></span>
+  </label>
+</div>
+
+<div class="footer-navbarContainer">
+  Made by Thomas Kauffmant
+</div>

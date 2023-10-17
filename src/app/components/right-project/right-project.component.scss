@@ -3,20 +3,21 @@
   display: flex;
   width: auto;
   height: auto;
-  padding: 2% 14% 2% 14%;
+  padding: 1.5% 8% 1.5% 8%;
 }
 
 .textAreaProject {
-  width: 50%;
+  width: 65%;
   height: auto;
-  padding: 0 4% 0 0;
+  padding: 0 2% 0 0;
 }
 
 .imageAreaProject {
   display: flex;
-  width: 50%;
+  width: 64%;
   height: auto;
   align-items: center;
+  justify-content: center;
   margin-right: 5%;
 }
 
@@ -35,12 +36,12 @@
 }
 
 .imageProjectTwice {
-  width: 50%;
+  width: 40%;
   height: auto;
 }
 
 .imageProjectAlone {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
@@ -65,7 +66,7 @@
   align-items: center;
   justify-content: center;
   padding: 0.7% 1.5% 0.7% 1.5%;
-  margin: 0 1% 0 1%;
+  margin: 0 1.15% 0 0%;
   color: var(--colorMode);
   font-size: 1.15vw;
   font-family: 'GothamFont';

@@ -7,15 +7,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'PortfolioV2';
-
-  public isLightTheme = true;
-
-  onThemeSwitchChange() {
-    this.isLightTheme = !this.isLightTheme;
-
-    document.body.setAttribute(
-      'data-theme',
-      this.isLightTheme ? 'light' : 'dark'
-    );
-  }
 }

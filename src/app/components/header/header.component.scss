@@ -49,27 +49,9 @@
 .linkArea {
   display: flex;
   width: 100%;
-  height: 25%;
+  height: 5vh;
   justify-content: center;
   align-items: center;
-}
-
-.greenBackground {
-  display: flex;
-  width: auto;
-  height: auto;
-  justify-content: center;
-  align-items: center;
-  background-color: limegreen;
-  border-radius: 6px;
-  padding: 5px 9px 5px 9px;
-}
-
-.availableText {
-  color: var(--colorMode);
-  font-size: 0.8vw;
-  font-family: 'GothamFont';
-  font-weight: bold;
 }
 
 .githubText {
@@ -78,41 +60,51 @@
   font-family: 'GothamFont';
   font-weight: bold;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.discordArea {
+.githubLink {
+  color: white;
+  text-decoration: none;
+}
+
+.aboutmeArea {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 10%;
   height: auto;
-  margin: 0 3% 0 3%;
+  margin: 0 0 0 3%;
+  cursor: pointer;
 }
 
-.popupDiscord {
-  display: none;
-  position: absolute;
+.aboutmeTitle {
+  height: auto;
+  padding: 5% 5%;
   color: var(--colorMode);
-  margin-bottom: 6%;
+  font-size: 1.05vw;
   font-family: 'GothamFont';
-  font-weight: bold;
-  background-color: #522ba7;
-  padding: 4px 8px 4px 8px;
+  background-color: var(--tagsBackground);
   border-radius: 8px;
-  opacity: 65%;
 }
 
-.discordImage {
-  width: 100%;
+.cvArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
   height: auto;
   cursor: pointer;
 }
 
-.linkedinImage {
-  width: 2.3%;
-  filter: invert(1);
-  cursor: pointer;
-  border-radius: 3.5px;
+.cvTitle {
+  height: auto;
+  padding: 5% 5%;
+  color: var(--colorMode);
+  font-size: 1.05vw;
+  font-family: 'GothamFont';
+  background-color: var(--tagsBackground);
+  border-radius: 8px;
 }
 
 .space-flex {
