@@ -3,16 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { MainComponent } from './main/main.component';
-import { AllProjectsComponent } from './all-projects/all-projects.component';
-import { ProjectComponent } from './project/project.component';
+import { MainComponent } from './components/main/main.component';
+import { AllProjectsComponent } from './components/all-projects/all-projects.component';
+import { ProjectComponent } from './components/project/project.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MainComponent,
     AllProjectsComponent,
-    ProjectComponent
+    ProjectComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
