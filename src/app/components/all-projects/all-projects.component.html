@@ -1,1 +1,25 @@
-<p>all-projects works!</p>
+<div class="portfolioArea">
+  <!-- Portfolio Title -->
+  <div class="portfolioNameArea" id="portfolioNameArea">Portfolio</div>
+
+  <!-- First Project - CryproCurrencies -->
+  <app-left-project
+    [titleProject]="'Cryptocurrency'"
+    [descriptionProject]="
+      'Cryptocurrency is a desktop software to see the price of the main cryptos (Bitcoin, ETH, Tether, Cardano, ...). It has more than 20 stock prices listed. A curve shows the price trends of the last 7 days.'
+    "
+    [tagProject]="[
+      'Crypto',
+      'CryptoCurrencies',
+      'Bitcoin',
+      'CoinGecko',
+      'Javascript',
+      'NodeJs',
+      'ElectronJs
+    '
+    ]"
+    [imgProject1]="'./../../../assets/AssetsCryptoCurrencyPhone.png'"
+    [imgProject2]="'./../../../assets/AssetsCryptoCurrency.png'"
+    [colorProject]="'#ff8800'"
+  ></app-left-project>
+</div>

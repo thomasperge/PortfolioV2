@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import "themes";
+
 @font-face {
   font-family: "GothamFont";
   src: url("./font/GothamMedium.ttf");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--backgroundColor);
 }

@@ -1,0 +1,17 @@
+.portfolioArea {
+  width: 100%;
+  height: auto;
+}
+
+.portfolioNameArea {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 0 4.5% 0;
+  color: var(--colorMode);
+  font-size: 3.2vw;
+  font-family: 'GothamFont';
+  font-weight: bold;
+}

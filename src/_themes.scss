@@ -1,0 +1,13 @@
+[data-theme="light"] {
+  --colorMode: black;
+  --backgroundColor: #f1f1f1;
+  --backgroundInput: #522ba7;
+  --tagsBackground: #b492ff;
+}
+
+[data-theme="dark"] {
+  --colorMode: white;
+  --backgroundColor: #242424;
+  --backgroundInput: black;
+  --tagsBackground: #7249cc;
+}

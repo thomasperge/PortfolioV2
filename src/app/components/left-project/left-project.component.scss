@@ -1,0 +1,74 @@
+/* ==== Project ==== */
+.projectArea {
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 2% 14% 2% 14%;
+}
+
+.textAreaProject {
+  width: 50%;
+  height: auto;
+  padding: 0 4% 0 0;
+}
+
+.imageAreaProject {
+  display: flex;
+  width: 50%;
+  height: auto;
+  align-items: center;
+}
+
+.projectTitle {
+  color: var(--colorMode);
+  font-size: 2.5vw;
+  font-family: 'GothamFont';
+  font-weight: bold;
+}
+
+.projectDescription {
+  color: var(--colorMode);
+  font-size: 1.4vw;
+  font-family: 'GothamFont';
+  margin-top: 6.5%;
+}
+
+.imageProjectTwice {
+  width: 50%;
+  height: auto;
+}
+
+.imageProjectAlone {
+  width: 100%;
+  height: auto;
+}
+
+/* ==== Tags ==== */
+.tagsArea {
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 5.5%;
+}
+
+.tagsTitle {
+  color: var(--colorMode);
+  font-size: 1.4vw;
+  font-family: 'GothamFont';
+  margin-right: 1%;
+}
+
+.tags {
+  display: flex;
+  width: auto;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7% 1.5% 0.7% 1.5%;
+  margin: 0 1% 0 1%;
+  color: var(--colorMode);
+  font-size: 1.15vw;
+  font-family: 'GothamFont';
+  border-radius: 20px;
+  background-color: var(--tagsBackground);
+  margin-bottom: 2%;
+}
