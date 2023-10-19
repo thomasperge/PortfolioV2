@@ -8,7 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
 import { RightProjectComponent } from './components/right-project/right-project.component';
 import { LeftProjectComponent } from './components/left-project/left-project.component';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './components/about/about.component';
 
 @NgModule({
   declarations: [
