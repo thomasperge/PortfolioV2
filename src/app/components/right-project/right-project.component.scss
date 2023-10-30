@@ -72,5 +72,28 @@
   font-family: 'GothamFont';
   border-radius: 20px;
   background-color: var(--tagsBackground);
+  margin-bottom: 1.2%;
+}
+
+.linkContainer {
+  width: auto;
+  height: auto;
+  display: flex;
+}
+
+.linkArea {
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  padding: 0.7% 1.5% 0.7% 1.5%;
+  margin: 0 1.15% 0 0%;
+  font-size: 1.15vw;
+  font-family: 'GothamFont';
   margin-bottom: 2%;
+  border-radius: 20px;
+}
+
+.link {
+  color: var(--colorMode);
+  text-decoration: underline;
 }

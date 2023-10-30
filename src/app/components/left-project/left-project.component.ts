@@ -12,6 +12,9 @@ export class LeftProjectComponent {
   @Input() imgProject1: string = "";
   @Input() imgProject2: string = "";
   @Input() colorProject: string = "";
+  @Input() link: string = "";
+  @Input() linkName: string = "";
+  @Input() githubLink: string = "";
   @Input() imgStyle: { [key: string]: string } = {};
 
   constructor() { }

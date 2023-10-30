@@ -48,8 +48,29 @@
     <div class="projectTitle">{{ titleProject }}</div>
     <div class="projectDescription">{{ descriptionProject }}</div>
     <div class="tagsArea">
-      <div class="tagsTitle" id="tagsTitle">Tags:</div>
-      <div *ngFor="let tag of tagProject" class="tags"  style="background-color: {{ colorProject }}">{{ tag }}</div>
+      <div class="tagsTitle" id="tagsTitle">Techno:</div>
+      <div
+        *ngFor="let tag of tagProject"
+        class="tags"
+        style="background-color: {{ colorProject }}"
+      >
+        {{ tag }}
+      </div>
+    </div>
+    <!-- LinkArea -->
+    <div class="linkContainer">
+      <div class="linkArea" style="background-color: #53a793" *ngIf="link">
+        Link :
+        <a href="{{ link }}" target="_blank" class="link">{{ linkName }}</a>
+      </div>
+      <div
+        class="linkArea"
+        style="background-color: #c18d8d"
+        *ngIf="githubLink"
+      >
+        GitHub :
+        <a href="{{ githubLink }}" target="_blank" class="link">here</a>
+      </div>
     </div>
   </div>
   <!-- Image -->
