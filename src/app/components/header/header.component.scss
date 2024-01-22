@@ -81,16 +81,7 @@
   cursor: pointer;
 }
 
-.aboutmeArea {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 10%;
-  height: auto;
-  cursor: pointer;
-}
-
-.aboutmeTitle {
+.projectTitle {
   height: auto;
   padding: 5% 5%;
   color: var(--colorMode);
@@ -98,6 +89,10 @@
   font-family: 'GothamFont';
   background-color: var(--tagsBackground);
   border-radius: 8px;
+}
+
+.projectTitle:focus {
+  background-color: red;
 }
 
 .cvArea {
