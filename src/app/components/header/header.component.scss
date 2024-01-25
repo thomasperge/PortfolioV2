@@ -1,7 +1,7 @@
 .firstView {
   display: flex;
   width: 100%;
-  height: 75vh;
+  height: 100vh;
   align-items: center;
   justify-content: center;
 }
@@ -21,10 +21,14 @@
 }
 
 .name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--colorMode);
-  font-size: 4vw;
+  font-size: 4rem;
   font-family: 'GothamFont';
   font-weight: bold;
+  text-align: center;
 }
 
 /* ==== Developper Name ==== */
@@ -40,7 +44,7 @@
 
 .developper {
   color: var(--colorMode);
-  font-size: 2vw;
+  font-size: 2rem;
   font-family: 'GothamFont';
 }
 
@@ -48,23 +52,27 @@
 .linkArea {
   display: flex;
   width: 100%;
-  height: 5vh;
+  height: auto;
   justify-content: center;
   align-items: center;
+  gap: 1.5rem;
 }
 
 .githubText {
   display: flex;
-  width: 10%;
+  width: auto;
   height: auto;
   align-items: center;
   justify-content: center;
-  font-size: 1.9vw;
+  font-size: 1.5rem;
   font-family: 'GothamFont';
-  font-weight: bold;
   cursor: pointer;
   text-decoration: none;
   color: var(--colorMode);
+}
+
+.githubText:hover {
+  text-decoration: underline;
 }
 
 .githubLink {
@@ -76,16 +84,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 10%;
+  width: auto;
   height: auto;
   cursor: pointer;
 }
 
 .projectTitle {
   height: auto;
-  padding: 5% 5%;
+  padding: .4rem .5rem;
   color: var(--colorMode);
-  font-size: 1.05vw;
+  font-size: 1.18rem;
   font-family: 'GothamFont';
   background-color: var(--tagsBackground);
   border-radius: 8px;
@@ -108,7 +116,7 @@
   height: auto;
   padding: 5% 5%;
   color: var(--colorMode);
-  font-size: 1.05vw;
+  font-size: 1.05rem;
   font-family: 'GothamFont';
   background-color: var(--tagsBackground);
   border-radius: 8px;

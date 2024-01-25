@@ -13,3 +13,13 @@ html, body {
   scroll-behavior: smooth !important;
   scroll-padding: 2rem;
 }
+
+@media screen and (max-width: 1290px) {
+  .projectArea {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+  }
+}
