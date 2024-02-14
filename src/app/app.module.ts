@@ -6,8 +6,7 @@ import { AppComponent } from './app.component';
 import { AllProjectsComponent } from './components/all-projects/all-projects.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HeaderComponent } from './components/header/header.component';
-import { RightProjectComponent } from './components/right-project/right-project.component';
-import { LeftProjectComponent } from './components/left-project/left-project.component';
+import { ProjectDetailComponent } from './components/project-detail/project-detail.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +14,7 @@ import { LeftProjectComponent } from './components/left-project/left-project.com
     AllProjectsComponent,
     FooterComponent,
     HeaderComponent,
-    RightProjectComponent,
-    LeftProjectComponent,
+    ProjectDetailComponent,
   ],
   imports: [
     BrowserModule,

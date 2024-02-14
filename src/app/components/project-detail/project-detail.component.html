@@ -1,4 +1,29 @@
-<div class="projectArea">
+<div class="projectArea" [ngStyle]="{ 'flex-direction': direction === 'right' ? 'row-reverse' : 'initial' }">
+  <!-- Image -->
+  <div class="imageAreaProject" *ngIf="imgProject1 && imgProject2">
+    <img
+      src="{{ imgProject1 }}"
+      [ngStyle]="imgStyle"
+      alt=""
+      class="imageProjectTwice"
+    />
+    <img
+      src="{{ imgProject2 }}"
+      [ngStyle]="imgStyle"
+      alt=""
+      class="imageProjectTwice"
+    />
+  </div>
+
+  <div class="imageAreaProject" *ngIf="imgProject1 && !imgProject2">
+    <img
+      src="{{ imgProject1 }}"
+      [ngStyle]="imgStyle"
+      alt=""
+      class="imageProjectAlone"
+    />
+  </div>
+
   <!-- Text -->
   <div class="textAreaProject">
     <svg
@@ -48,8 +73,7 @@
     <div class="projectTitle">{{ titleProject }}</div>
     <div class="projectDescription">{{ descriptionProject }}</div>
     <div class="tagsArea">
-      <div class="tagsTitle" id="tagsTitle">Techno:</div>
-      <div
+        <div
         *ngFor="let tag of tagProject"
         class="tags"
         style="background-color: {{ colorProject }}"
@@ -72,29 +96,5 @@
         <a href="{{ githubLink }}" target="_blank" class="link">here</a>
       </div>
     </div>
-  </div>
-  <!-- Image -->
-  <div class="imageAreaProject" *ngIf="imgProject1 && imgProject2">
-    <img
-      src="{{ imgProject1 }}"
-      [ngStyle]="imgStyle"
-      alt=""
-      class="imageProjectTwice"
-    />
-    <img
-      src="{{ imgProject2 }}"
-      [ngStyle]="imgStyle"
-      alt=""
-      class="imageProjectTwice"
-    />
-  </div>
-
-  <div class="imageAreaProject" *ngIf="imgProject1 && !imgProject2">
-    <img
-      src="{{ imgProject1 }}"
-      [ngStyle]="imgStyle"
-      alt=""
-      class="imageProjectAlone"
-    />
   </div>
 </div>

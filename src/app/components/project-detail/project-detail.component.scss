@@ -3,23 +3,22 @@
   display: flex;
   width: auto;
   height: auto;
-  justify-content: center;
+  justify-content: space-between;
+  gap: 50px;
   padding: 1.5% 8% 1.5% 8%;
 }
 
 .textAreaProject {
-  width: 50%;
+  width: 65%;
   height: auto;
-  padding: 0 4% 0 0;
+  // padding: 0 1% 0 0;
 }
 
 .imageAreaProject {
   display: flex;
-  width: 50%;
+  width: 64%;
   height: auto;
   align-items: center;
-  justify-content: center ;
- 
 }
 
 .projectTitle {
@@ -51,7 +50,7 @@
   display: flex;
   flex-wrap: wrap;
   display: flex;
-  margin-top: 5.5%;
+  margin-top: 1.5rem;
 }
 
 .tagsTitle {
@@ -69,7 +68,7 @@
   padding: 0.7% 1.5% 0.7% 1.5%;
   margin: 0 1.15% 0 0%;
   color: var(--colorMode);
-  font-size: 1.10rem;
+  font-size: 1.1rem;
   font-family: 'GothamFont';
   border-radius: 20px;
   background-color: var(--tagsBackground);
@@ -80,6 +79,7 @@
   width: auto;
   height: auto;
   display: flex;
+  margin-top: .6rem;
 }
 
 .linkArea {

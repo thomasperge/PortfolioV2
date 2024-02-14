@@ -3,7 +3,8 @@
   <div class="portfolioNameArea">All my projects</div>
 
   <!-- Spelliy -->
-  <app-right-project
+  <app-project-detail
+    [direction]="'left'"
     [titleProject]="'Spelliy'"
     [descriptionProject]="
       'Spelliy est un traducteur, un reformulateur et un correcteur d\'orthographe en ligne, propulsé par l\'IA d\'OpenAI. Aucune carte de crédit n\'est nécessaire, et la création d\'un compte n\'est pas obligatoire pour l\'utiliser. Vous bénéficiez de 40 utilisations gratuites. Ensuite, il vous faudra créer un compte pour continuer à utiliser Spelliy'
@@ -28,10 +29,11 @@
     [link]="'https://www.spelliy.com/'"
     [linkName]="'spelliy.com'"
     [githubLink]="'https://github.com/thomasperge/grammifyFront'"
-  ></app-right-project>
+  ></app-project-detail>
 
   <!-- Flowly -->
-  <app-left-project
+  <app-project-detail
+    [direction]="'right'"
     [titleProject]="'Flowly'"
     [descriptionProject]="
       'Flowly est un logiciel conçu spécifiquement pour les entreprises et les particuliers, disponible sur PC, offrant la possibilité de gérer et contrôler divers aspects liés à leur empreinte carbone, le nombres de kilométre parcourue par jours/mois/années, le coût de l\'essence et d\'autres statistiques relatives à leurs flottes de véhicules.'
@@ -53,10 +55,11 @@
     }"
     [linkName]="'download-flowly.com'"
     [githubLink]="'https://github.com/thomasperge/Flowly'"
-  ></app-left-project>
+  ></app-project-detail>
 
   <!-- App Flowly -->
-  <app-right-project
+  <app-project-detail
+    [direction]="'left'"
     [titleProject]="'App Flowly'"
     [descriptionProject]="
       'L\'application Flowly est intégralement connectée au logiciel, ce qui permet de suivre en temps réel le nombre de kilomètres parcourus pour chaque type de véhicule. Elle propose un panel de statistiques personnalisées pour l\'utilisateur, affichant les kilomètres parcourus au cours des 10 derniers jours, le coût moyen de l\'essence consommée et payée, le taux de CO2 émis, et bien plus encore.'
@@ -75,10 +78,11 @@
     [imgStyle]="{ width: '41%' }"
     [linkName]="'download-flowly.com'"
     [githubLink]="'https://github.com/thomasperge/appFlowlyFront'"
-  ></app-right-project>
+  ></app-project-detail>
 
   <!-- CryptoCurrency -->
-  <app-left-project
+  <app-project-detail
+    [direction]="'right'"
     [titleProject]="'Cryptocurrency'"
     [descriptionProject]="
       'Cryptocurrency est un logiciel de bureau permettant de visualiser le prix des principales cryptomonnaies (Bitcoin, Ethereum, Tether, Cardano, ...). Il répertorie plus de 20 cours en bourse obtenue grâce a un API. Une courbe affiche les tendances des prix des 7 derniers jours ainsi que la tendance des 30 dernier jours en %.'
@@ -88,10 +92,11 @@
     [imgProject2]="'./../../../assets/AssetsCryptoCurrency.png'"
     [colorProject]="'#ff8800'"
     [githubLink]="'https://github.com/thomasperge/CryptoCurrency-Desktop-apps'"
-  ></app-left-project>
+  ></app-project-detail>
 
   <!-- ToDoApp -->
-  <app-right-project
+  <app-project-detail
+    [direction]="'left'"
     [titleProject]="'ToDoApp'"
     [descriptionProject]="
       'ToDoApp est une application de gestion des tâches réalisée avec ElectronJs. L\'application est facile à utiliser, elle permet de planifier des tâches selon un ordre de priorité et des catégories que l\'utilisateur choisit'
@@ -101,10 +106,11 @@
     [colorProject]="'#7b7b7b'"
     [imgStyle]="{ 'border-radius': '10px', 'box-shadow': '0px 0px 7px black' }"
     [githubLink]="'https://github.com/thomasperge/ToDo-App'"
-  ></app-right-project>
+  ></app-project-detail>
 
   <!-- BringIt -->
-  <app-left-project
+  <app-project-detail
+    [direction]="'right'"
     [titleProject]="'BringIt'"
     [descriptionProject]="
       'BrintIt est une application permettant l\'organisation d\'événements, avec un système de sélection d\'éléments par l\'utilisateur. L\'utilisateur peut créer un événement et un groupe à partir d\'un lien d\'invitation'
@@ -115,10 +121,11 @@
     [colorProject]="'#9b62e0'"
     [imgStyle]="{ width: '41%' }"
     [githubLink]="'https://github.com/BringIT-Team'"
-  ></app-left-project>
+  ></app-project-detail>
 
   <!-- Tic&Tac -->
-  <app-right-project
+  <app-project-detail
+    [direction]="'left'"
     [titleProject]="'Tic&Tac'"
     [descriptionProject]="
       'Tic&Tac est un site qui prend en charge l\'API Spotify en Golang. L\'utilisateur crée un compte et a accès à tous les artistes du monde ainsi qu\'à leur musique. L\'utilisateur peut ajouter des artistes et des chansons à ses favoris. De plus, il existe une fonctionnalité pour suivre les concerts'
@@ -131,5 +138,5 @@
       'box-shadow': '0px 0px 7px black',
       width: '100%'
     }"
-  ></app-right-project>
+  ></app-project-detail>
 </div>

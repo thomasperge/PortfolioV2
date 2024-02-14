@@ -1,11 +1,12 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-left-project',
-  templateUrl: './left-project.component.html',
-  styleUrls: ['./left-project.component.scss']
+  selector: 'app-project-detail',
+  templateUrl: './project-detail.component.html',
+  styleUrls: ['./project-detail.component.scss']
 })
-export class LeftProjectComponent {
+export class ProjectDetailComponent {
+  @Input() direction: string = "";
   @Input() titleProject: string = "";
   @Input() descriptionProject: string = "";
   @Input() tagProject: string[] = [];
@@ -16,6 +17,6 @@ export class LeftProjectComponent {
   @Input() linkName: string = "";
   @Input() githubLink: string = "";
   @Input() imgStyle: { [key: string]: string } = {};
-
+  
   constructor() { }
 }
