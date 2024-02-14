@@ -1,142 +1,72 @@
 <div class="portfolioArea" id="portfolioArea">
   <!-- Portfolio Title -->
   <div class="portfolioNameArea">All my projects</div>
+  <div class="all-project-area">
+    <!-- Spelliy -->
+    <app-project-detail [direction]="'left'" [titleProject]="'Spelliy'" [descriptionProject]="
+        'Spelliy est un traducteur, un reformulateur et un correcteur d\'orthographe en ligne, propulsé par l\'IA d\'OpenAI. Aucune carte de crédit n\'est nécessaire, et la création d\'un compte n\'est pas obligatoire pour l\'utiliser. Vous bénéficiez de 40 utilisations gratuites. Ensuite, il vous faudra créer un compte pour continuer à utiliser Spelliy'
+      " [tagProject]="[
+        'Angular',
+        'Stripe API',
+        'MongoDb',
+        'ExpressJS',
+        'Tailwind'
+      ]" [imgProject1]="'./../../../assets/reformulate.png'" [colorProject]="'blue'" [imgStyle]="{
+        'border-radius': '10px',
+        'box-shadow': '0px 0px 7px black',
+        width: '100%',
+        'margin-right': '6%'
+      }" [link]="'https://www.spelliy.com/'" [linkName]="'spelliy.com'" [githubLink]="'https://github.com/thomasperge/grammifyFront'"></app-project-detail>
 
-  <!-- Spelliy -->
-  <app-project-detail
-    [direction]="'left'"
-    [titleProject]="'Spelliy'"
-    [descriptionProject]="
-      'Spelliy est un traducteur, un reformulateur et un correcteur d\'orthographe en ligne, propulsé par l\'IA d\'OpenAI. Aucune carte de crédit n\'est nécessaire, et la création d\'un compte n\'est pas obligatoire pour l\'utiliser. Vous bénéficiez de 40 utilisations gratuites. Ensuite, il vous faudra créer un compte pour continuer à utiliser Spelliy'
-    "
-    [tagProject]="[
-      'Angular',
-      'MongoDb',
-      'Typescript',
-      'ExpressJS',
-      'NodeJs',
-      'Stripe API',
-      'Tailwind'
-    ]"
-    [imgProject1]="'./../../../assets/reformulate.png'"
-    [colorProject]="'blue'"
-    [imgStyle]="{
-      'border-radius': '10px',
-      'box-shadow': '0px 0px 7px black',
-      width: '100%',
-      'margin-right': '6%'
-    }"
-    [link]="'https://www.spelliy.com/'"
-    [linkName]="'spelliy.com'"
-    [githubLink]="'https://github.com/thomasperge/grammifyFront'"
-  ></app-project-detail>
+    <!-- Flowly -->
+    <app-project-detail [direction]="'right'" [titleProject]="'Flowly'" [descriptionProject]="
+        'Flowly est un logiciel conçu spécifiquement pour les entreprises et les particuliers, disponible sur PC, offrant la possibilité de gérer et contrôler divers aspects liés à leur empreinte carbone, le nombres de kilométre parcourue par jours/mois/années, le coût de l\'essence et d\'autres statistiques relatives à leurs flottes de véhicules.'
+      " [tagProject]="[
+        'ElectronJs',
+        'MongoDB',
+        'NodeJs',
+        'ExpressJS',
+        'Stripe API'
+      ]" [imgProject1]="'./../../../assets/flowlyDesktop.png'" [colorProject]="'#d4af37'" [imgStyle]="{
+        'border-radius': '10px',
+        'box-shadow': '0px 0px 7px black',
+        width: '110%',
+        'margin-right': '5%'
+      }" [linkName]="'download-flowly.com'" [githubLink]="'https://github.com/thomasperge/Flowly'"></app-project-detail>
 
-  <!-- Flowly -->
-  <app-project-detail
-    [direction]="'right'"
-    [titleProject]="'Flowly'"
-    [descriptionProject]="
-      'Flowly est un logiciel conçu spécifiquement pour les entreprises et les particuliers, disponible sur PC, offrant la possibilité de gérer et contrôler divers aspects liés à leur empreinte carbone, le nombres de kilométre parcourue par jours/mois/années, le coût de l\'essence et d\'autres statistiques relatives à leurs flottes de véhicules.'
-    "
-    [tagProject]="[
-      'ElectronJs',
-      'MongoDB',
-      'NodeJs',
-      'ExpressJS',
-      'Stripe API'
-    ]"
-    [imgProject1]="'./../../../assets/flowlyDesktop.png'"
-    [colorProject]="'#a39048'"
-    [imgStyle]="{
-      'border-radius': '10px',
-      'box-shadow': '0px 0px 7px black',
-      width: '110%',
-      'margin-right': '5%'
-    }"
-    [linkName]="'download-flowly.com'"
-    [githubLink]="'https://github.com/thomasperge/Flowly'"
-  ></app-project-detail>
+    <!-- App Flowly -->
+    <app-project-detail [direction]="'left'" [titleProject]="'App Flowly'" [descriptionProject]="
+        'L\'application Flowly est intégralement connectée au logiciel, ce qui permet de suivre en temps réel le nombre de kilomètres parcourus pour chaque type de véhicule. Elle propose un panel de statistiques personnalisées pour l\'utilisateur, affichant les kilomètres parcourus au cours des 10 derniers jours, le coût moyen de l\'essence consommée et payée, le taux de CO2 émis, et bien plus encore.'
+      " [tagProject]="[
+        'Angular',
+        'Ionic',
+        'NodeJs',
+        'ExpressJs',
+        'MongoDb'
+      ]" [imgProject1]="'./../../../assets/appFlowly1.png'" [imgProject2]="'./../../../assets/appFlowly2.png'" [colorProject]="'#24c890'" [imgStyle]="{ width: '41%' }" [linkName]="'download-flowly.com'" [githubLink]="'https://github.com/thomasperge/appFlowlyFront'"></app-project-detail>
 
-  <!-- App Flowly -->
-  <app-project-detail
-    [direction]="'left'"
-    [titleProject]="'App Flowly'"
-    [descriptionProject]="
-      'L\'application Flowly est intégralement connectée au logiciel, ce qui permet de suivre en temps réel le nombre de kilomètres parcourus pour chaque type de véhicule. Elle propose un panel de statistiques personnalisées pour l\'utilisateur, affichant les kilomètres parcourus au cours des 10 derniers jours, le coût moyen de l\'essence consommée et payée, le taux de CO2 émis, et bien plus encore.'
-    "
-    [tagProject]="[
-      'Angular',
-      'Ionic',
-      'Typescipt',
-      'NodeJs',
-      'ExpressJs',
-      'MongoDb'
-    ]"
-    [imgProject1]="'./../../../assets/appFlowly1.png'"
-    [imgProject2]="'./../../../assets/appFlowly2.png'"
-    [colorProject]="'#24c890'"
-    [imgStyle]="{ width: '41%' }"
-    [linkName]="'download-flowly.com'"
-    [githubLink]="'https://github.com/thomasperge/appFlowlyFront'"
-  ></app-project-detail>
+    <!-- CryptoCurrency -->
+    <app-project-detail [direction]="'right'" [titleProject]="'Cryptocurrency'" [descriptionProject]="
+        'Cryptocurrency est un logiciel de bureau permettant de visualiser le prix des principales cryptomonnaies (Bitcoin, Ethereum, Tether, Cardano, ...). Il répertorie plus de 20 cours en bourse obtenue grâce a un API. Une courbe affiche les tendances des prix des 7 derniers jours ainsi que la tendance des 30 dernier jours en %.'
+      " [tagProject]="['ElectronJs', 'CoinGecko', 'NodeJs', 'ChartJs']" [imgProject1]="'./../../../assets/AssetsCryptoCurrencyPhone.png'" [imgProject2]="'./../../../assets/AssetsCryptoCurrency.png'" [colorProject]="'#ff8800'" [githubLink]="'https://github.com/thomasperge/CryptoCurrency-Desktop-apps'"></app-project-detail>
 
-  <!-- CryptoCurrency -->
-  <app-project-detail
-    [direction]="'right'"
-    [titleProject]="'Cryptocurrency'"
-    [descriptionProject]="
-      'Cryptocurrency est un logiciel de bureau permettant de visualiser le prix des principales cryptomonnaies (Bitcoin, Ethereum, Tether, Cardano, ...). Il répertorie plus de 20 cours en bourse obtenue grâce a un API. Une courbe affiche les tendances des prix des 7 derniers jours ainsi que la tendance des 30 dernier jours en %.'
-    "
-    [tagProject]="['ElectronJs', 'CoinGecko', 'NodeJs', 'ChartJs']"
-    [imgProject1]="'./../../../assets/AssetsCryptoCurrencyPhone.png'"
-    [imgProject2]="'./../../../assets/AssetsCryptoCurrency.png'"
-    [colorProject]="'#ff8800'"
-    [githubLink]="'https://github.com/thomasperge/CryptoCurrency-Desktop-apps'"
-  ></app-project-detail>
+    <!-- ToDoApp -->
+    <app-project-detail [direction]="'left'" [titleProject]="'ToDoApp'" [descriptionProject]="
+        'ToDoApp est une application de gestion des tâches réalisée avec ElectronJs. L\'application est facile à utiliser, elle permet de planifier des tâches selon un ordre de priorité et des catégories que l\'utilisateur choisit'
+      " [tagProject]="['ElectronJs', 'Javascript', 'NodeJs']" [imgProject1]="'./../../../assets/todogif.gif'" [colorProject]="'#CD0000'" [imgStyle]="{ 'border-radius': '10px', 'box-shadow': '0px 0px 7px black' }" [githubLink]="'https://github.com/thomasperge/ToDo-App'"></app-project-detail>
 
-  <!-- ToDoApp -->
-  <app-project-detail
-    [direction]="'left'"
-    [titleProject]="'ToDoApp'"
-    [descriptionProject]="
-      'ToDoApp est une application de gestion des tâches réalisée avec ElectronJs. L\'application est facile à utiliser, elle permet de planifier des tâches selon un ordre de priorité et des catégories que l\'utilisateur choisit'
-    "
-    [tagProject]="['ElectronJs', 'Javascript', 'NodeJs']"
-    [imgProject1]="'./../../../assets/todogif.gif'"
-    [colorProject]="'#7b7b7b'"
-    [imgStyle]="{ 'border-radius': '10px', 'box-shadow': '0px 0px 7px black' }"
-    [githubLink]="'https://github.com/thomasperge/ToDo-App'"
-  ></app-project-detail>
+    <!-- BringIt -->
+    <app-project-detail [direction]="'right'" [titleProject]="'BringIt'" [descriptionProject]="
+        'BrintIt est une application permettant l\'organisation d\'événements, avec un système de sélection d\'éléments par l\'utilisateur. L\'utilisateur peut créer un événement et un groupe à partir d\'un lien d\'invitation'
+      " [tagProject]="['Typescript', 'NestJs', 'ReactJs', 'NodeJs']" [imgProject1]="'./../../../assets/bringit.png'" [imgProject2]="'./../../../assets/bringit2.png'" [colorProject]="'#9b62e0'" [imgStyle]="{ width: '41%' }" [githubLink]="'https://github.com/BringIT-Team'"></app-project-detail>
 
-  <!-- BringIt -->
-  <app-project-detail
-    [direction]="'right'"
-    [titleProject]="'BringIt'"
-    [descriptionProject]="
-      'BrintIt est une application permettant l\'organisation d\'événements, avec un système de sélection d\'éléments par l\'utilisateur. L\'utilisateur peut créer un événement et un groupe à partir d\'un lien d\'invitation'
-    "
-    [tagProject]="['Typescript', 'NestJs', 'ReactJs', 'NodeJs']"
-    [imgProject1]="'./../../../assets/bringit.png'"
-    [imgProject2]="'./../../../assets/bringit2.png'"
-    [colorProject]="'#9b62e0'"
-    [imgStyle]="{ width: '41%' }"
-    [githubLink]="'https://github.com/BringIT-Team'"
-  ></app-project-detail>
-
-  <!-- Tic&Tac -->
-  <app-project-detail
-    [direction]="'left'"
-    [titleProject]="'Tic&Tac'"
-    [descriptionProject]="
-      'Tic&Tac est un site qui prend en charge l\'API Spotify en Golang. L\'utilisateur crée un compte et a accès à tous les artistes du monde ainsi qu\'à leur musique. L\'utilisateur peut ajouter des artistes et des chansons à ses favoris. De plus, il existe une fonctionnalité pour suivre les concerts'
-    "
-    [tagProject]="['Spotify API', 'Html', 'Golang']"
-    [imgProject1]="'./../../../assets/groupieTracker.png'"
-    [colorProject]="'#15e2dd'"
-    [imgStyle]="{
-      'border-radius': '10px',
-      'box-shadow': '0px 0px 7px black',
-      width: '100%'
-    }"
-  ></app-project-detail>
+    <!-- Tic&Tac -->
+    <app-project-detail [direction]="'left'" [titleProject]="'Tic&Tac'" [descriptionProject]="
+        'Tic&Tac est un site qui prend en charge l\'API Spotify en Golang. L\'utilisateur crée un compte et a accès à tous les artistes du monde ainsi qu\'à leur musique. L\'utilisateur peut ajouter des artistes et des chansons à ses favoris. De plus, il existe une fonctionnalité pour suivre les concerts'
+      " [tagProject]="['Golang', 'Spotify API', 'Html']" [imgProject1]="'./../../../assets/groupieTracker.png'" [colorProject]="'#15e2dd'" [imgStyle]="{
+        'border-radius': '10px',
+        'box-shadow': '0px 0px 7px black',
+        width: '100%'
+      }"></app-project-detail>
+  </div>
 </div>

@@ -83,6 +83,7 @@
 }
 
 .linkArea {
+  display: flex;
   width: fit-content;
   align-items: center;
   justify-content: center;
@@ -92,9 +93,15 @@
   font-family: 'GothamFont';
   margin-bottom: 2%;
   border-radius: 20px;
+  color: white;
+  gap: .3rem;
 }
 
 .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--colorMode);
   text-decoration: underline;
+  transition: all ease-in 125ms;
 }

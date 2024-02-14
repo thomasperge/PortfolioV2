@@ -1,6 +1,12 @@
 .portfolioArea {
   width: 100%;
   height: auto;
+
+  .all-project-area {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
 
 .portfolioNameArea {
