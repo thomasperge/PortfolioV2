@@ -48,22 +48,24 @@
   transition: .5s;
 }
 
-input:checked + .slider {
+input:checked+.slider {
   background-color: var(--backgroundInput);
 }
 
-input:checked + .slider:before {
+input:checked+.slider:before {
   transform: translateX(130%);
   box-shadow: inset 15px -4px 0px 15px #fff000;
 }
 
 .footer-navbarContainer {
   display: flex;
+  flex-direction: column;
   width: 100%;
   align-items: center;
   justify-content: center;
   padding: 1.5rem 0 2.5rem 0;
   font-size: 1.1rem;
+  gap: .5rem;
   color: var(--colorMode);
   font-family: "GothamFont";
 }

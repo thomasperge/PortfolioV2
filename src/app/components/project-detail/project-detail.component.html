@@ -26,30 +26,24 @@
         </g>
       </g>
     </svg>
-    <!-- Stroke = Change color -->
+
+    <!-- Title -->
     <div class="projectTitle">{{ titleProject }}</div>
+
+    <!-- Description -->
     <div class="projectDescription">{{ descriptionProject }}</div>
+
+    <!-- Link -->
+    <div class="linkContainer">
+      <a href="{{ link }}" target="_blank" *ngIf="link" class="link" style="color: {{ colorProject }}">Site</a>
+      <div *ngIf="link" class="separator">-</div>
+      <a href="{{ githubLink }}" target="_blank" *ngIf="githubLink" class="link" style="color: {{ colorProject }}">GitHub</a>
+    </div>
+
+    <!-- Tags -->
     <div class="tagsArea">
       <div *ngFor="let tag of tagProject" class="tags" style="background-color: {{ colorProject }}">
         {{ tag }}
-      </div>
-    </div>
-    <!-- LinkArea -->
-    <div class="linkContainer">
-      <div class="linkArea" *ngIf="link" style="color: white">
-        <a href="{{ link }}" target="_blank" class="link">Check the project</a>
-      </div>
-      <div class="linkArea" *ngIf="githubLink">
-        GitHub
-        <a href="{{ githubLink }}" target="_blank" class="link">
-          <svg width="27px" height="27px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff">
-            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
-            <g id="SVGRepo_iconCarrier">
-              <path d="M7 17L17 7M17 7H8M17 7V16" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-            </g>
-          </svg>
-        </a>
       </div>
     </div>
   </div>
