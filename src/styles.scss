@@ -6,7 +6,8 @@
   src: url("./font/GothamMedium.ttf");
 }
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   background-color: var(--backgroundColor);
@@ -23,7 +24,24 @@ html, body {
     margin: 0;
   }
 
-  app-left-project > .projectArea {
-    flex-direction: column-reverse;
+  app-project-detail>.projectArea {
+    flex-direction: column !important;
+  }
+
+  app-project-detail>.projectArea>.textAreaProject {
+    width: 85% !important;
+  }
+
+  app-project-detail>.projectArea>.imageAreaProject {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+  }
+
+  app-project-detail>.projectArea>.imageAreaProject>.imageProjectAlone {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 65%;
   }
 }

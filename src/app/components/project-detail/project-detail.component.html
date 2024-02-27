@@ -38,6 +38,8 @@
       <a href="{{ link }}" target="_blank" *ngIf="link" class="link" style="color: {{ colorProject }}">Site</a>
       <div *ngIf="link" class="separator">-</div>
       <a href="{{ githubLink }}" target="_blank" *ngIf="githubLink" class="link" style="color: {{ colorProject }}">GitHub</a>
+      <div *ngIf="link" class="separator">-</div>
+      <div class="usersNumber" *ngIf="users">(Users : {{ users }} <span>🎊</span>)</div>
     </div>
 
     <!-- Tags -->

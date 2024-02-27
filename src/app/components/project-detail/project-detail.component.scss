@@ -33,7 +33,7 @@
   font-size: 1.4rem;
   font-family: 'GothamFont';
   margin-top: 6.5%;
-  margin-bottom: .6rem;
+  margin-bottom: 1rem;
 }
 
 .imageProjectTwice {
@@ -68,12 +68,21 @@
   align-items: center;
   justify-content: center;
   padding: 0.7% 1.5% 0.7% 1.5%;
-  margin: 0 1.15% 0 0%;
+  margin: 0 1.15% 1.2% 0%;
   color: var(--colorMode);
   font-size: 1.1rem;
   font-family: 'GothamFont';
   border-radius: 20px;
   background-color: var(--tagsBackground);
+}
+
+.usersNumber {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.32rem;
+  font-family: 'GothamFont';
+  color: var(--colorMode);
 }
 
 .linkContainer {
@@ -84,6 +93,9 @@
 }
 
 .link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   font-size: 1.32rem;
   font-family: 'GothamFont';
@@ -95,6 +107,9 @@
 }
 
 .separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.32rem;
   color: var(--colorMode);
   margin: 0 .4rem;
