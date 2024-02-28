@@ -16,7 +16,6 @@ export class ProjectDetailComponent {
   @Input() link: string = "";
   @Input() linkName: string = "";
   @Input() githubLink: string = "";
-  @Input() users: string = "";
   @Input() imgStyle: { [key: string]: string } = {};
   
   constructor() { }

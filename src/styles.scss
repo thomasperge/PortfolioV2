@@ -24,6 +24,10 @@ body {
     margin: 0;
   }
 
+  .portfolioArea>.portfolioNameArea {
+    text-align: center !important;
+  }
+
   app-project-detail>.projectArea {
     flex-direction: column !important;
   }
@@ -42,6 +46,26 @@ body {
   app-project-detail>.projectArea>.imageAreaProject>.imageProjectAlone {
     margin: 0 !important;
     padding: 0 !important;
-    width: 65%;
+    width: 70vw !important;
+  }
+
+  app-project-detail>.projectArea>.imageAreaProject>.imageProjectTwice {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 25vw !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  app-project-detail>.projectArea>.imageAreaProject>.imageProjectAlone {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 90vw !important;
+  }
+
+  app-project-detail>.projectArea>.imageAreaProject>.imageProjectTwice {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 40vw !important;
   }
 }
