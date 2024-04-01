@@ -2,6 +2,20 @@
   <!-- Portfolio Title -->
   <div class="portfolioNameArea">All my solo projects</div>
   <div class="all-project-area">
+    <!-- BeyondQuest -->
+    <app-project-detail [direction]="'left'" [titleProject]="'BeyondQuest'" [descriptionProject]="
+        'BeyondQuest est une application mobile où l\'utilisateur reçoit des notifications concernant des challenges adaptés à ses préférences. Pour valider un challenge, il doit prendre une photo correspondante. De plus, il a la possibilité de réagir aux challenges proposés, de consulter les réactions des autres utilisateurs et de rejoindre les challenges en tendance'
+      " [tagProject]="[
+        'Mobile App',
+        'ReactJs',
+        'Ionic',
+        'MongoDb',
+        'ExpressJS',
+        'Tailwind'
+      ]" [imgProject1]="'./../../../assets/beyondquest.png'" [colorProject]="'#00A286'" [imgStyle]="{
+        width: '80%',
+      }" [link]="'https://play.google.com/store/search?q=BeyondQuest&c=apps&gl=FR'" [githubLink]="'https://github.com/thomasperge/beyondquest'"></app-project-detail>
+
     <!-- Spelliy -->
     <app-project-detail [direction]="'right'" [titleProject]="'Spelliy'" [descriptionProject]="
         'Spelliy est un traducteur, un reformulateur et un correcteur d\'orthographe en ligne, propulsé par l\'IA d\'OpenAI. La création d\'un compte n\'est pas obligatoire pour l\'utiliser. Un système d\'utilisation limitée est mis en place. Ensuite, il vous faudra créer un compte pour continuer à utiliser Spelliy'
@@ -75,10 +89,12 @@
     <!-- BringIt -->
     <app-project-detail [direction]="'right'" [titleProject]="'BringIt'" [descriptionProject]="
         'BrintIt est une application permettant l\'organisation d\'événements, avec un système de sélection d\'éléments par l\'utilisateur. L\'utilisateur peut créer un événement et un groupe à partir d\'un lien d\'invitation'
-      " [tagProject]="['Typescript', 'NestJs', 'React', 'NodeJs']" [imgProject1]="'./../../../assets/bringit.png'" [imgProject2]="'./../../../assets/bringit2.png'" [colorProject]="'#9b62e0'" [githubLink]="'https://github.com/BringIT-Team'"></app-project-detail>
+      " [tagProject]="['Typescript', 'NestJs', 'React', 'NodeJs']" [imgProject1]="'./../../../assets/bringit.png'" [imgStyle]="{
+        width: '80.5%'
+      }" [colorProject]="'#9b62e0'" [githubLink]="'https://github.com/BringIT-Team'"></app-project-detail>
 
     <!-- PortfolioCalculator -->
-    <app-project-detail [direction]="'left'" [titleProject]="'PortfolioCalculator'" [descriptionProject]="
+    <app-project-detail [direction]="'left'" [titleProject]="'PortfolioCalculo'" [descriptionProject]="
         '📊 Portfolio calculator est un petit logiciel pour calculer son patrimoine en temps réel. Il inclut des graphiques, les profits totaux, le risque du patrimoine, le nombre de biens et le nombre d\'actifs'
       " [tagProject]="['C#', 'Observer', 'Design Pattern']" [imgProject1]="'./../../../assets/portfoliocalculator.png'" [colorProject]="'#707070'" [imgStyle]="{ width: '102%' }" [link]="
         'https://github.com/thomasperge/PortfolioCalculator/releases/tag/publish'
